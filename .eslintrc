@@ -1,0 +1,32 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "linebreak-style": 0,
+    "key-spacing": [
+        1,
+        {
+          "mode": "minimum"
+        }
+
+      ],
+    "keyword-spacing": [
+      2,
+      {
+        "before": true,
+        "after": true,
+        "overrides": {
+          "if": { "after": false },
+          "for": { "after": false },
+          "while": { "after": false },
+          "switch": { "after": false },
+          "catch": { "after": false },
+          "throw": { "after": false }
+        }
+      }
+    ],
+    "no-confusing-arrow": 0,
+    "no-multi-spaces": 0,
+    "no-underscore-dangle": 0,
+    "semi": 0,
+  }
+}
